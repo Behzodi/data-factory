@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "from studs2 to student",
+				"name": "from studs to student",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
