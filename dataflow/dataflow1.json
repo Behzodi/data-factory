@@ -72,7 +72,11 @@
 				"     format: 'table',",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
-				"     errorHandlingOption: 'stopOnFirstError') ~> sink1"
+				"     errorHandlingOption: 'stopOnFirstError',",
+				"     mapColumn(",
+				"          id = split1@newdata@id,",
+				"          name = split1@newdata@name",
+				"     )) ~> sink1"
 			]
 		}
 	}
