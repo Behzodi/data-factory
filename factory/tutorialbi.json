@@ -1,0 +1,9 @@
+{
+	"name": "tutorialbi",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d634742-486e-4338-9b38-9f822d2ea426",
+		"tenantId": "aab00b01-209f-4e8a-9376-dd4cd89a43c1"
+	}
+}
